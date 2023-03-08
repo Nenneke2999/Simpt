@@ -1,0 +1,181 @@
+.login_box{
+    position: absolute;
+    width: 26vw;
+    height: 28vw;
+    left: 36vw;
+    top: 10vw;
+    
+    background: #CCCCCC;
+    border-radius: 1vw;
+}
+
+.h3_login{
+    position: absolute;
+    width: 18vw;
+    height: 3vw;
+    left: 10vw;
+    top: -5vw;
+
+/* H1 Montserrat Alternates */
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vw;
+    line-height: 3vw;
+/* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.form_login{
+    position: absolute;
+    width: 19vw;
+    height: 2vw;
+    left: 3.5vw;
+    top: 2vw;
+
+    background: #FFFFFF;
+    border-radius: 1vw;
+}
+
+.form_password{
+    position: absolute;
+    width: 19vw;
+    height: 2vw;
+    left: 3.5vw;
+    top: 6vw;
+
+    background: #FFFFFF;
+    border-radius: 1vw;
+}
+
+.forgetpassword{
+    position: absolute;
+    width: 11vw;
+    height: 2vw;
+    left: 14vw;
+    top: 10vw;
+
+    /* H5 downline Montserrat Alternates */
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 2vw;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    cursor: pointer;
+
+    color: #000000;
+}
+
+.errors1{
+    position: absolute;
+    width: 17vw;
+    height: 1vw;
+    left: 7vw;
+    top: 3.75vw;
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 1vw;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    
+    color: red;
+}
+
+.errors2{
+    position: absolute;
+    width: 17vw;
+    height: 1vw;
+    left: 7vw;
+    top: 7.75vw;
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 1vw;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    
+    color: red;
+}
+
+.login_button{
+    position: absolute;
+    left: 7vw;
+    right: 7vw;
+    top: 13vw;
+    bottom: 12vw;
+
+    background: #D9D9D9;
+    border-radius: 2vw;
+    cursor: pointer;
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 0vw;
+    display: absolute;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.login_button:active {
+    background-color: #252525;
+}
+
+.text_login{
+    position: absolute;
+    width: 15vw;
+    height: 2vw;
+    left: 8vw;
+    top: 20vw;
+
+    /* H5 Montserrat Alternates */
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 2vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.close {
+    position: absolute;
+    width: 15vw;
+    height: 2vw;
+    left: 24vw;
+    top: 0vw;
+    
+    color: grey;
+    font-weight: bold;
+    font-size: 2vw;
+    line-height: 3vw;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration-line: none;
+}

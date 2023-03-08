@@ -1,0 +1,240 @@
+.addtask{
+    position: absolute;
+    width: 23vw;
+    height: 49vw;
+    left: 37vw;
+    top: 4vw;
+
+    /* GreyBackground */
+
+    background: #575757;
+    border-radius: 1vw;
+}
+
+.h3task{
+    position: absolute;
+    width: 25vw;
+    height: 0vw;
+    left: 5vw;
+    top: 0vw;
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.taskname{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 18vw;
+    height: 2vw;
+    left: 3vw;
+    top: 3vw;
+
+    /* Base/White 100% */
+
+    background: #FFFFFF;
+    /* Gray / 30 */
+
+    border: 0.1vw solid #B4B4BB;
+    border-radius: 1vw;
+}
+
+.datastart{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 8vw;
+    height: 3vw;
+    left: 3vw;
+    top: 6vw;
+
+    /* Base/White 100% */
+
+    background: #FFFFFF;
+    /* Gray / 30 */
+
+    border: 0.1vw solid #B4B4BB;
+    border-radius: 1vw;
+}
+
+.dataend{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 8vw;
+    height: 3vw;
+    left: 13vw;
+    top: 6vw;
+
+    /* Base/White 100% */
+
+    background: #FFFFFF;
+    /* Gray / 30 */
+
+    border: 0.1vw solid #B4B4BB;
+    border-radius: 1vw;
+}
+
+.priority{
+    position: absolute;
+    width: 8vw;
+    height: 3vw;
+    left: 3vw;
+    top: 10vw;
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1vw;
+    line-height: 1vw;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.priority_select{
+    position: absolute;
+    width: 10vw;
+    height: 2vw;
+    left: 12vw;
+    top: 10.5vw;
+
+    background: #FFFFFF;
+
+    border: 0.1vw solid #B4B4BB;
+    border-radius: 1vw;
+}
+
+.section{
+    position: absolute;
+    width: 5vw;
+    height: 3vw;
+    left: 3vw;
+    top: 14vw;
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1vw;
+    line-height: 1vw;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.selectsection{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 10vw;
+    height: 2vw;
+    left: 12vw;
+    top: 14.5vw;
+
+    /* Base/White 100% */
+
+    background: #FFFFFF;
+    /* Gray / 30 */
+
+    border: 0.1vw solid #B4B4BB;
+    border-radius: 1vw;
+}
+
+.status{
+    position: absolute;
+    width: 5vw;
+    height: 3vw;
+    left: 3vw;
+    top: 18vw;
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1vw;
+    line-height: 1vw;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.selectstatus{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 10vw;
+    height: 2vw;
+    left: 12vw;
+    top: 18.5vw;
+
+    /* Base/White 100% */
+
+    background: #FFFFFF;
+    /* Gray / 30 */
+
+    border: 0.1vw solid #B4B4BB;
+    border-radius: 1vw;
+}
+
+.describe{
+    position: absolute;
+    width: 10vw;
+    height: 1vw;
+    left: 11vw;
+    top: 26vw;
+    
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1vw;
+    line-height: 1vw;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+.submittask{
+    position: absolute;
+    left: 0px;
+    right: -0.29px;
+    top: 0px;
+    bottom: 0.23px;
+    
+    /* Base/White 100% */
+    
+    background: #FFFFFF;
+    box-shadow: 0px 2.35645px 4.71291px rgba(58, 58, 68, 0.08), 0px 4.71291px 9.42582px rgba(90, 91, 106, 0.08);
+    border-radius: 58.3222px;
+}
+
+.task_describe{
+    box-sizing: border-box;
+    text-align: start;
+    margin: 0;
+    border: 0;
+
+    position: absolute;
+    width: 20vw;
+    height: 11vw;
+    left: 1.75vw;
+    top: 28vw;
+    
+    /* Base/White 100% */
+    
+    background: #FFFFFF;
+    /* Gray / 30 */
+    
+    border: 0.589113px solid #B4B4BB;
+    border-radius: 5.89113px;
+}
