@@ -10,8 +10,9 @@ function Addtask(){
         <div className="addtask" id="addtask" aria-hidden="true">
         <h3 className='h3task'> Создать задачу </h3>
         
-        <form method='POST' action='http://127.0.0.1:8000/api/tasks/' 
-            >
+        <iframe name="addtask" width='0' height='0'></iframe>
+        
+        <form method='POST' action='http://127.0.0.1:8000/api/tasks/' target='addtask'>
                 
                 <input className='taskname'
                     {...register('title')} 
@@ -55,11 +56,11 @@ function Addtask(){
                     {...register('describe')} 
                     placeholder='Введите описание задачи'/>
 
-                <input type='submit' className='submittask' value='Добавить задачу'/>
+                <input type='submit' className='submittask' value='Создать'/>
 
         </form>
 
-        <a className="close" onclick="close()" href="/">×</a>
+        <a className="close" onclick="close()" href="/board">Отменить</a>
         </div>
     )
 }

@@ -206,16 +206,37 @@
 
 .submittask{
     position: absolute;
-    left: 0px;
-    right: -0.29px;
-    top: 0px;
-    bottom: 0.23px;
+    left: 1vw;
+    right: 12vw;
+    top: 43vw;
+    bottom: 3vw;
+    margin: 0vw;
+    border: 0vw;
+
+    cursor: pointer;
     
     /* Base/White 100% */
     
     background: #FFFFFF;
-    box-shadow: 0px 2.35645px 4.71291px rgba(58, 58, 68, 0.08), 0px 4.71291px 9.42582px rgba(90, 91, 106, 0.08);
-    border-radius: 58.3222px;
+    box-shadow: 0vw 0.1vw 0.2vw rgba(58, 58, 68, 0.08), 0vw 0.2vw 0.5vw rgba(90, 91, 106, 0.08);
+    border-radius: 3vw;
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 1vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Grey/60 */
+
+    color: #5A5B6A;
+}
+
+.submittask:active {
+    background-color: #252525;
 }
 
 .task_describe{
@@ -237,4 +258,35 @@
     
     border: 0.589113px solid #B4B4BB;
     border-radius: 5.89113px;
+}
+
+.close{
+    position: absolute;
+    left: 11.5vw;
+    top: 43vw;
+    height: 3vw;
+    width: 11vw;
+    margin: 0;
+    border: 0;
+
+    cursor: pointer;
+    
+    /* Base/White 100% */
+    
+    background: #FFFFFF;
+    box-shadow: 0vw 0.1vw 0.2vw rgba(58, 58, 68, 0.08), 0vw 0.2vw 0.5vw rgba(90, 91, 106, 0.08);
+    border-radius: 3vw;
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 1vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Grey/60 */
+
+    color: #5A5B6A;
 }

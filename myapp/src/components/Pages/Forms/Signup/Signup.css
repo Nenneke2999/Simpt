@@ -76,46 +76,6 @@
     border-radius: 1vw;
 }
 
-.errors1_signup{
-    position: absolute;
-    width: 17vw;
-    height: 1vw;
-    left: 7vw;
-    top: 11.75vw;
-
-    font-family: 'Montserrat Alternates';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1vw;
-    line-height: 1vw;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-    
-    color: red;
-}
-
-.errors2_signup{
-    position: absolute;
-    width: 17vw;
-    height: 1vw;
-    left: 7vw;
-    top: 15.75vw;
-
-    font-family: 'Montserrat Alternates';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1vw;
-    line-height: 1vw;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-    
-    color: red;
-}
-
 .submit{
     position: absolute;
     left: 3.5vw;
